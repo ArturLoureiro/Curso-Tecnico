@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script src="admin.js" defer></script>
+</head>
+<body>
+<div class="banner">
+<img src="imgs/img01.jpg" alt="Banner Curso"/>
+</div>
+<div class="menu">
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="sobre.html">Sobre</a></li>
+<li><a href="corpoDocente.html">Corpo Docente</a></li>
+<li><a href="modulos.html">Módulos & Disciplinas</a></li>
+<li><a href="turmas.html">Turmas Anteriores</a></li>
+<li><a href="video.html">Vídeo de Apresentação</a></li>
+<li><a href="endereco.html">Endereço Institucional</a></li>
+<li><a href="contato.html">Contato</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+</div>
+</div>
+<div class="container">
+<h1>Login</h1>
+<form id="formLogin" aria-label="Formulário de login">
+<label for="txtLogin">Login:</label>
+<input id="txtLogin" name="txtLogin" type="text" />
+<label for="txtSenha">Senha:</label>
+<input id="txtSenha" name="txtSenha" type="password" /> 
+<div class="form-actions">
+<button type="submit">Entrar</button>
+<button type="reset">Limpar</button>
+</form>
+</div>
+<div id="loginStatus" role="status" aria-live="polite"></div>
+</div>
+<footer class="footer"><p>Instituto Benjamin Constant — Av. Pasteur, 368 - Urca, Rio de Janeiro - RJ</p></footer>
+<script type="module" src="dist/login.js"></script>
+</body>
+</html>
